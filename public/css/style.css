@@ -1,0 +1,200 @@
+body {
+    font-family: "Poppins";
+}
+
+.text-dark {
+    color: #242424;
+}
+
+.navbar {
+    background-color: #f4f4f4;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0a4191;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.btn {
+    border-radius: 120px;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    background-color: #0a4191;
+    border: none;
+}
+
+.btn-outline-primary {
+    border: 1px solid #0a4191;
+    color: #242424;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0a4191;
+}
+
+.btn-primary:hover {
+    background-color: #05224d;
+}
+
+.svg-home {
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-tutors {
+    border: none;
+}
+
+section {
+    padding: 70px 0;
+}
+
+.header {
+    background-color: #f4f4f4;
+    padding: 16px 0;
+    min-height: 600px;
+}
+
+.profile-tutors {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Tutors */
+
+/* Testimonial */
+.card-testimonial {
+    padding: 30px 10px;
+}
+
+.testimonial-name {
+    font-style: italic;
+}
+
+/* Course */
+#course_list {
+    padding: 140px 0;
+    min-height: 634px;
+}
+
+/* Detail Course */
+#detail {
+    padding: 100px 0;
+    min-height: 700px;
+}
+
+/* Auth */
+#auth {
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Utilities */
+.search-input {
+    border-radius: 100px;
+}
+
+/* footer */
+footer {
+    margin-top: 1em;
+    background-color: white;
+}
+
+.footer {
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: var(--content-font-size);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer h3 {
+    color: #303030;
+}
+.footer2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.kaki img {
+    width: 75px;
+}
+.kaki ul {
+    color: black;
+    font-size: var(--content-font-size);
+    line-height: 1.5em;
+}
+
+.kaki a {
+    color: var(--primary-color);
+}
+
+.kaki2 {
+    padding-top: 2em;
+    padding-left: 20em;
+}
+
+.kaki2 ul {
+    line-height: 2em;
+}
+
+.kaki2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.kaki2 a:hover {
+    color: #0a4191;
+}
+/* footer */
+@media only screen and (max-width: 600px) {
+    #statistic-course {
+        text-align: center;
+    }
+
+    #category-button-section {
+        flex-direction: column;
+    }
+
+    footer {
+        font-size: 80%;
+    }
+
+    .footer {
+        padding: 2em;
+    }
+    .footer2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .kaki {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .kaki ul {
+        line-height: 1.8em;
+    }
+    .kaki img {
+        width: 140px;
+    }
+    .kaki2 {
+        padding: 4em;
+        padding-left: 0;
+        justify-content: space-between;
+    }
+    .kaki2 a:hover {
+        color: #0a4191;
+    }
+}
