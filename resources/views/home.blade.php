@@ -224,11 +224,11 @@
                     <div class="col-md-4">
                         <div class="card card-testimonial">
                             <div class="card-body text-center">
-                                <p class="card-text">"Some quick example text to build on the card title and
+                                <p class="card-text fst-italic">"Some quick example text to build on the card title and
                                     make up the
                                     bulk of
                                     the card's content."</p>
-                                <span class="testimonial-name">- Ibrahim Rangkuti</span>
+                                <span>- Ibrahim Rangkuti</span>
                             </div>
                         </div>
                     </div>

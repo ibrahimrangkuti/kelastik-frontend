@@ -16,9 +16,6 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{{ url('/course') }}">Kursus</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Tentang</a>
-                </li>
             </ul>
             <div>
                 <a href="{{ url('/login') }}" class="btn btn-primary btn-signin">Masuk</a>

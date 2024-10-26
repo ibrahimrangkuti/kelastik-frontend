@@ -14,6 +14,10 @@ Route::get('/course/detail', function () {
     return view('pages.course.detail');
 });
 
+Route::get('/profile/test', function () {
+    return view('pages.profile.index');
+});
+
 Route::get('/login', function () {
     return view('pages.auth.login');
 })->name('login');
